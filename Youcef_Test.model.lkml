@@ -12,7 +12,6 @@ include: "*.view.lkml"         # include all views in this project
      type: left_outer
      relationship: many_to_one
 
-
    }
 
    join: Group_Customer {

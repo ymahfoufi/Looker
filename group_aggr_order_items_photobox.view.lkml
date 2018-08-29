@@ -349,4 +349,20 @@ view: Group_Order_Items{
     type: count
     drill_fields: []
   }
+  measure: Total_sales_gbp_isev {
+    type: sum
+    sql: ${sales_gbp_isev} ;;
+  }
+  measure: Total_sales_gbp_isiv {
+    type: sum
+    sql: ${sales_gbp_isiv} ;;
+  }
+  measure: Total_sales_gbp_esev {
+    type: sum
+    sql: ${sales_gbp_esev} ;;
+  }
+  measure: Total_sales_gbp_esiv {
+    type: sum
+    sql: ${sales_gbp_esiv} ;;
+  }
 }
